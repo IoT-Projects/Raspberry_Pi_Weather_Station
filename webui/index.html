@@ -1,0 +1,75 @@
+<!DOCTYPE html ng-app="angularstrapApp" >
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" ng-app="angularstrapApp">
+<head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+    <link rel="stylesheet" href="assets/css/bootstrapFlatly/bootstrap.css">
+    <link rel="stylesheet" href="bower_components/angular-chart.js/dist/angular-chart.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+
+<meta name="description" content="Here's the dashboard for my Raspberry Pi sensor array. This is all open source and available on GitHub" />
+<meta property="og:description" content="Here's the dashboard for my Raspberry Pi sensor array. This is all open source and available on GitHub" />
+<meta itemprop="description" content="Here's the dashboard for my Raspberry Pi sensor array. This is all open source and available on GitHub" />
+<meta name="twitter:description" content="Here's the dashboard for my Raspberry Pi sensor array. This is all open source and available on GitHub">
+
+<meta property="og:image" content="http://jeremymorgan.github.io/Raspberry_Pi_Weather_Station/assets/img/raspberry-pi-sensors.jpg" />
+<meta itemprop="image" content="http://jeremymorgan.github.io/Raspberry_Pi_Weather_Station/assets/img/raspberry-pi-sensors.jpg" />
+<meta name="twitter:image" content="http://jeremymorgan.github.io/Raspberry_Pi_Weather_Station/assets/img/raspberry-pi-sensors.jpg">
+<meta property="og:site_name" content="JeremyMorgan.GitHub.IO" />
+ <!-- http://t.co/dKP3o1e -->
+<meta name="twitter:url" content="http://jeremymorgan.github.io/Raspberry_Pi_Weather_Station/">
+<meta property="og:url" content="http://jeremymorgan.github.io/Raspberry_Pi_Weather_Station/" />
+<link rel="canonical" href="http://jeremymorgan.github.io/Raspberry_Pi_Weather_Station/" />
+<link href="/favicon.png" rel="icon" />
+<meta name="twitter:site" content="@JeremyCMorgan">
+<meta name="twitter:creator" content="@JeremyCMorgan">
+<meta name="HandheldFriendly" content="True" />
+<meta name="MobileOptimized" content="320" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+</head>
+<title>Mini Weather Station</title>
+<body>
+<div class="github-fork-ribbon-wrapper right">
+        <div class="github-fork-ribbon">
+            <a href="https://github.com/JeremyMorgan/Raspberry_Pi_Weather_Station">Fork me on GitHub</a>
+        </div>
+    </div>
+<div class="container">
+    <div class="row clearfix">
+        <div class="col-md-12 column">
+            <nav class="navbar navbar-default" role="navigation">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+                    <a class="navbar-brand" href="#/">Mini Weather Station</a>
+                </div>              
+            </nav>
+        </div>
+    </div>
+    <!-- start dynamic content -->
+    <div ui-view=""></div>
+    <!-- end dynamic content -->
+</div>
+</body>
+<!-- load jQuery from CDN --> 
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<!-- load BootStrap from CDN --> 
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?autoload={'modules':[{'name':'visualization','version':'1.1','packages':['gauge']}]}"></script>
+<script src="/Raspberry_Pi_Weather_Station/bower_components/moment/moment.js"></script>
+<script src="/Raspberry_Pi_Weather_Station/assets/js/chart.js"></script>
+<script src="/Raspberry_Pi_Weather_Station/assets/libs/angular/angular.js"></script>
+<script src="/Raspberry_Pi_Weather_Station/assets/libs/angular/angular-ui-router.js"></script>
+<script src="/Raspberry_Pi_Weather_Station/bower_components/angular-chart.js/dist/angular-chart.js"></script>
+<script src="/Raspberry_Pi_Weather_Station/app/app.modules.js"></script>
+<script src="/Raspberry_Pi_Weather_Station/app/app.states.js"></script>
+<script src="/Raspberry_Pi_Weather_Station/app/components/home/home.controller.js"></script>
+<script src="/Raspberry_Pi_Weather_Station/app/components/home/home.services.js"></script>
+<script src="/Raspberry_Pi_Weather_Station/app/components/about/about.controller.js"></script>
+<script src="/Raspberry_Pi_Weather_Station/app/components/about/about.services.js"></script>
+<!-- fork me on github --> 
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.1.1/gh-fork-ribbon.min.css" />
+<!--[if lt IE 9]>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.1.1/gh-fork-ribbon.ie.min.css" />
+<![endif]-->
+</html>

@@ -1,0 +1,26 @@
+.rightimage {
+    float: right;
+}
+
+.centered-img {
+    margin: 0 auto;
+}
+
+.centered {
+    text-align: center
+}
+
+.charts {
+
+	background-color: #ECF0F1;
+}
+
+#chart_div1, #chart_div2 , #chart_div3 {
+	display: block;
+	margin: 0 auto;
+	width: 200px;
+}
+
+row {
+	margin-top: 40px;
+}
